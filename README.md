@@ -97,22 +97,22 @@
 * 정리된 컴포넌트에 대한 이벤트를 정의 : 컴포넌트 생성시점에 이벤트 리스너를 붙이는 메서드를 정의 함
 * 이벤트 발생시 해당 컴포넌트가 Map에 저장되어있는지 확인 후 이벤트 진행
 
-![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%AC%B4%EC%9D%B8%EC%9E%90%ED%8C%90%EA%B8%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B4%80%EB%A6%AC%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A9%94%EC%84%9C%EB%93%9C.PNG)
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%AC%B4%EC%9D%B8%EC%9E%90%ED%8C%90%EA%B8%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B4%80%EB%A6%AC%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A9%94%EC%84%9C%EB%93%9C%20%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%88.png)
 
 <br>
 
 * 다형성을 이용하여 하나의 Setter 로 다양한 JPanel 의존을 주입하고 싶다. : instanceof 연산자 채용
 
-![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%A9%94%EC%9D%B8%ED%94%84%EB%A0%88%EC%9E%84.PNG)
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%A9%94%EC%9D%B8%ED%94%84%EB%A0%88%EC%9E%84%20%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%88.png)
 
 
 <br>
 
 * 기제하였던 정적메서드를 사용하여 필드와 생성자에 필요 의존을 세팅
 
-![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC.PNG)
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC%20%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%88.png)
 
-![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC1.PNG)
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC1%20%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%88.png)
 
 <br>
 
