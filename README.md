@@ -116,7 +116,7 @@
 
 <br>
 
-* 각 판넬들에 HashTable 의 Value 를 뿌리고 싶다 :다형성 이용, 키 값에 변경을 주어 맞는 판넬에 맞는 Vector<Component> 를 반복문으로 돌릴 수 있게 됨 
+* 각 판넬들에 HashTable 의 Value 를 뿌리고 싶다 :다형성 이용, 키 값에 변경을 주면 키에 맞는 Vector<Component> 를 반복문으로 돌릴 수 있게 됨 
 
 ![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%8B%A4%ED%98%95%EC%84%B1%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20UI%20%EC%A0%84%EA%B0%9C%20%EB%A9%94%EC%84%9C%EB%93%9C%20%EC%82%AC%EC%9A%A9.PNG)
 
