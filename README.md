@@ -106,6 +106,23 @@
 
 <br>
 
+* 기제하였던 정적메서드를 사용하여 필드와 생성자에 필요 의존을 세팅
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC.PNG)
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC1.PNG)
+
+<br>
+
+* 각 판넬들에 HashTable 의 Value 를 뿌리고 싶다 :다형성 이용, 키 값에 변경을 주어 맞는 판넬에 맞는 Vector<Component> 를 반복문으로 돌릴 수 있게 됨 
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%8B%A4%ED%98%95%EC%84%B1%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20UI%20%EC%A0%84%EA%B0%9C%20%EB%A9%94%EC%84%9C%EB%93%9C%20%EC%82%AC%EC%9A%A9.PNG)
+
+<br>
+
+* 해당 작업으로 변경된 메인 메서드 코드
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%A9%94%EC%9D%B8%EB%A9%94%EC%84%9C%EB%93%9C.PNG)
 
 <br>
 <br>
