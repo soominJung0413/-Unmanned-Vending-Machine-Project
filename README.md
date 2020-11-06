@@ -47,6 +47,10 @@
 **직접 맡은 역할에 대한 내용에 대해서는 Version2에 기술되어있습니다.**
 
 <br>
+
+**자바 독학 후 첫 프로젝트 진행에 있어 의존 주입 코드가 좋지 못한 점과 몇몇 클래스 네이밍 컨벤션이 일치하지않았다는 점이 있습니다.**
+
+<br>
 <hr>
 
 # Version 1
@@ -92,6 +96,15 @@
 * 이벤트 발생시 해당 컴포넌트가 Map에 저장되어있는지 확인 후 이벤트 진행
 
 ![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%AC%B4%EC%9D%B8%EC%9E%90%ED%8C%90%EA%B8%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B4%80%EB%A6%AC%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A9%94%EC%84%9C%EB%93%9C.PNG)
+
+<br>
+
+* 다형성을 이용하여 하나의 Setter 로 다양한 JPanel 의존을 주입하고 싶다. : instanceof 연산자 채용
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%A9%94%EC%9D%B8%ED%94%84%EB%A0%88%EC%9E%84.PNG)
+
+
+<br>
 
 
 <br>
