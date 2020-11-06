@@ -112,6 +112,10 @@
 
 ![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC%20%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%88.png)
 
+<br>
+
+* 메인 메서드 구동시 진행되는 Assembler 생성자 로직
+
 ![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC1%20%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%88.png)
 
 <br>
@@ -122,7 +126,7 @@
 
 <br>
 
-* 해당 작업으로 변경된 메인 메서드 코드
+* 객체지향 작업 후 변경된 메인 메서드 소스 코드
 
 ![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%A9%94%EC%9D%B8%EB%A9%94%EC%84%9C%EB%93%9C.PNG)
 
