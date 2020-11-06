@@ -1,5 +1,7 @@
 # 무인자판기
-본 프로젝트는 중앙 정보 처리 학원 자바 커리큘럼 진행 후 이루어진 첫번째 학원 프로젝트.
+본 프로젝트는 중앙 정보 처리 학원 자바 커리큘럼 진행(2개월 후) 이루어진 첫번째 학원 프로젝트입니다.
+
+총 인원은 6명 이며 본인은 객체지향화 작업을 맡았습니다.
 
 **역할**
 * 1000줄 정도의 메인메서드 소스코드를 객체 지향화 하는 작업.
@@ -28,7 +30,7 @@
 * 데이터 입력 후 취소, 결제시 input 컴포넌트 초기화 구현, 수량 오류 값을 검증하기위한 NumberFormatExcetion 처리
 * JFrame , Assembler 등에 각 이벤트처리, 컴포넌트 조합 로직을 정리하여 유지보수와 확장성 증대 꾀함.
 * 각 Swing의 클래스 들이 Component 클래스의 자식인 것을 파악, 다형성을 구현하여 하나의 메서드에서 모든 컴포넌트를 뿌리도록 함
-* instanceof 연산자의 채용으로 타입 분기를 만들어 이벤트 처리 분기
+* instanceof 연산자의 채용으로 타입 분기를 만들어 의존 주입 분기
 * 컴포넌트 관련 이벤트 처리를 하는 메서드를 각 패키지의 Buttons, TextFields 등의 클래스에 묶어 유지보수와 더불어 클래스 의 변수와 함수를 유연하게 사용하도록 함
 * UI를 변경할 때마다 EventQueue.invokeLater() 사용, 블로킹이 발생하지 않도록 조치.
 
@@ -106,6 +108,23 @@
 
 <br>
 
+* 기제하였던 정적메서드를 사용하여 필드와 생성자에 필요 의존을 세팅
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC.PNG)
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC1.PNG)
+
+<br>
+
+* 각 판넬들에 HashTable 의 Value 를 뿌리고 싶다 :다형성 이용, 키 값에 변경을 주면 키에 맞는 Vector<Component> 를 반복문으로 돌릴 수 있게 됨 
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%8B%A4%ED%98%95%EC%84%B1%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20UI%20%EC%A0%84%EA%B0%9C%20%EB%A9%94%EC%84%9C%EB%93%9C%20%EC%82%AC%EC%9A%A9.PNG)
+
+<br>
+
+* 해당 작업으로 변경된 메인 메서드 코드
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%A9%94%EC%9D%B8%EB%A9%94%EC%84%9C%EB%93%9C.PNG)
 
 <br>
 <br>
