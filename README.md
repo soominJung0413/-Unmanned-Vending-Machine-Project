@@ -87,6 +87,11 @@
 
 **객체지향화를 위한 고민과 결과**
 
+* UI 컴포넌트들을 정리하는 방법 : 유지보수 관점에서 불리하다 판단, UI들을 하나의 클래스로 변환. 생성된 객체를 각 컴포넌트의 부모인 Component.class 를 이용하여 HashTable에 담게 됨.
+* 정리된 컴포넌트에 대한 이벤트를 정의 : 컴포넌트 생성시점에 이벤트 리스너를 붙이는 메서드를 정의 함
+* 이벤트 발생시 해당 컴포넌트가 Map에 저장되어있는지 확인 후 이벤트 진행
+
+![](https://github.com/soominJung0413/-Unmanned-Vending-Machine-Project/blob/main/projectimage/%EB%AC%B4%EC%9D%B8%EC%9E%90%ED%8C%90%EA%B8%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B4%80%EB%A6%AC%20%ED%81%B4%EB%9E%98%EC%8A%A4%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A9%94%EC%84%9C%EB%93%9C.PNG)
 
 
 <br>
